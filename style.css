@@ -1,0 +1,570 @@
+/*  #065474 
+    #f48038
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navtop{
+    background-color: #f48038;
+    width: 100%;
+    min-width: 380px;
+}
+span {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+}
+
+span img {
+    width: 18px;
+    padding-top: 3.5px;
+}
+span a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+span a:hover {
+    text-decoration: underline;
+}
+
+span li {
+    list-style: none;
+
+}
+
+header {
+    background-color: #f5efef;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+
+    
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+nav .logo img {
+    width: 200px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: #296a84;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 18px;
+    transition: .2s all;
+    padding: 0 15px;
+}
+
+.nav-links a:hover {
+    color: #f48038;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    z-index: 12;
+
+}
+
+.burger div {
+    width: 25px;
+    height: 4px;
+    background-color: #065474;
+    margin: 4px;
+    transition: all 0.3s ease;
+
+}
+
+@media screen and (max-width:1024px) {
+    .nav-links {
+        width: 60%;
+    }
+}
+
+/*Ajustando a altura minima*/
+@media screen and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /*ajustando os itens para se adequar a altura min*/
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 16vh;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform .2s ease-out;
+
+    
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+/*Quando se clica no menu hambuguer*/
+
+    .nav-active {
+    transform: translateX(0%);
+    
+}
+
+/*Animações quando se clica no menu hamburguer*/
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+/*Transformando o menu em X*/
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-6px, 6px);
+    background-color: #f48038;
+}
+
+.toggle .line2 {
+    opacity: 0;
+
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-6px, -6px);
+    background-color: #f48038;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links.nav-active li {
+        opacity: 1;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* header*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    width: 100%;
+    margin-top: 80px;
+    min-width: 200px;
+}
+
+
+#banner img {
+    width: 100%;
+    margin: 100px 0 100px 0;
+
+}
+
+
+#sobre{
+    width: 80%;
+    margin: auto;
+
+}
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin: 160px 0 200px 0;
+    
+}
+
+.frota img{
+    width: 700px;
+}
+.text_sobre h1{
+    color: #065474;
+    border-bottom: 5px solid #f48038;
+    width: 38%;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    
+}
+.text_sobre p {
+    color: rgb(114, 114, 114);
+    font-family: 'Gill Sans',
+    'Gill Sans MT',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
+    line-height: 30px;
+    font-size: 22px;
+}
+@media screen and (max-width: 1500px) {
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+        
+    }
+}
+@media screen and (max-width: 1500px) {
+    .sobre img{
+        width: 100%;
+
+    }
+}
+
+
+
+
+
+
+
+/* provissorio aguardando ims e vetores*/
+.provisoria{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.container_vetor img{
+    width: 80px;
+    
+
+}
+.container_vetor{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 200px 0;
+    
+  
+}
+.container_vetor h1{
+    color: #f48038;
+    margin: 50px 0 30px 0px;
+
+    
+}
+.container_vetor p{
+    color: rgb(135, 135, 135);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 30px;
+    width: 70%;
+    align-items: center;
+    margin-bottom: 100px;
+    text-align: justify;
+
+    
+}
+@media screen and (max-width: 768px) {
+    .provisoria {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left:20%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .provisoria h1{
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
+@media screen and (max-width: 768px) {
+    .provisoria img{
+        margin-left: 20%;
+    }
+}
+/* provissorio aguardando ims e vetores*/
+
+
+
+#endereço{
+    width: 100%;
+    margin: 100px 0;
+}
+.mapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 20px 0;
+}
+.mapa h1{
+    text-align: center;
+    color: #065474;
+    border-bottom: 5px solid #f48038;
+    width: 100%;  
+}
+
+
+@media screen and (max-width: 768px) {
+    .mapa img {
+        width: 380px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    background-color: #065474;
+    min-width: 320px;
+    margin-top: 300px;
+    
+}
+
+.social img {
+    width: 20px;
+}
+.second_footer{
+    background-color: #296a84;
+    
+}
+.footer_son {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding: 10px 0;
+}
+.footer_son img{
+    width: 120px;
+}
+.footer_son a {
+    text-decoration: none;
+    color: white;
+}
+.footer_son ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+}
+
+.footer_brother {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 100px 0;
+    align-items: center
+    
+}
+.footer_brother img{
+    width: 600px;
+}
+.social img{
+    width: 25px;
+}
+
+.footer_brother p{
+color: white;  
+}
+.footer_brother h1 {
+    border-left: 10px solid #f48038;
+    padding: 0px 20px;
+    max-width: 60%;
+    color: white;
+    
+}
+
+.footer_brother a {
+    font-size: 2rem;
+}
+
+.footer_brother button {
+    background-color: #f48038;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+}
+.footer_son ul li:hover{
+    color: #f48038;
+}
+.footer_brother button:hover {
+    background-color: #ffa974;
+    cursor: pointer;
+}
+.vetorlog{
+   max-width: 900px;
+   min-width: 320px;
+}
+.vetorlog img{
+    width: 100%;
+}
+.dev {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding: 15px 0;
+}
+
+
+
+
+
+/* tornando o footer resposivel mobile*/
+
+@media screen and (max-width: 768px) {
+    .footer_son {
+        display: flex;
+        flex-direction: column;
+        font-size: calc(.45em + 1.2vw);
+        align-items: center;
+        padding: 10px 0;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:780px){
+    .footer_brother{
+        display: flex;
+        flex-direction: column;
+        font-size: calc(.5em + 1.2vw);  
+    }
+    h1{
+        display: flex;
+        
+    }
+    p{
+       width: 90%;
+        
+    
+    }
+}   
+
+@media screen and (max-width: 768px) {
+    .dev {
+        display: flex;
+        flex-direction: column;
+        font-size: calc(.7em + 1.1vw);
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+
+ 
+   }
+}
+@media screen and (max-width: 768px) {
+    .vetorlog {
+        margin: 60px 0 0 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    #qld, a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+
+    }
+}
+@media screen and (max-width: 768px) {
+        .social{
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+        }
+}
+/*footer*/
+
+
+
