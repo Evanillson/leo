@@ -17,7 +17,7 @@ function scrollToIdOnClick(event){
 
 
     window.scroll( {
-        top: to - 300,
+        top: to - 200,
         behavior: "smooth"
     });
 }
