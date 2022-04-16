@@ -1,5 +1,5 @@
 
-//scroll//
+//scroll navegation//
 
 const menuItems = document.querySelectorAll('.nav-links [href^="#"]');
 console.log(menuItems);
@@ -24,8 +24,33 @@ function scrollToIdOnClick(event){
 
 
 
+// scroll header//
+
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("header").style.backgroundColor = "white";
+        document.getElementById("menu").style.padding = "0px"
 
 
+        document.getElementById("top-header").style.backgroundColor = "#f48038"
+        document.getElementById("top-header").style.border = "none"
+
+    
+
+    } else {
+        document.getElementById("header").style.backgroundColor = "";
+        document.getElementById("menu").style.padding = ""
+    
+
+
+        document.getElementById("top-header").style.backgroundColor = ""
+        document.getElementById("top-header").style.border = ""
+
+        
+    }
+}
 
 
 
@@ -56,6 +81,7 @@ const navSlide = () => {
 }
 
 navSlide();
+
 
 
 

@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NuLog - Página Inicial</title>
+    <title>NuLog - Rodando Soluções</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="#" type="image/x-icon">
 </head>
 <body>
 <body>
-    <header>
-        <div class="navtop">
+    <header id="header">
+        <div class="navtop" id="top-header">
                 <span id="navtop">
                     <a href="https://www.facebook.com/" target="_blank"><img src="imgs/facewhite.png" alt="face"></a>
                     <a href="https://www.instagram.com/" target="_blank"><img src="imgs/instawhite.png" alt="insta"></a>
@@ -20,16 +20,16 @@
                     <a href="#">CLIENTES</a> 
                 </span>
         </div>
-        <nav class="menu">
+        <nav class="menu" id="menu">
             <div class="logo">
-                <a href="https://evanillson.github.io/nulog/"><img src="imgs/logo-nulog-transparente.png" alt=""></a>
+                <a href="index.html"><img src="imgs/logo-nulog-transparente.png" id="logo"></a>
             </div>
             <ul class="nav-links">
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#missão">Missão</a></li>
-                <li><a href="#visão">Visão</a></li>
-                <li><a href="#valores">Valores</a></li>
-                <li><a href="#contatos">Contatos</a></li>
+                <li><a id="sobre" href="http://127.0.0.1:5500/leo/index.html">Home</a></li>
+                <li><a id="missao" href="#quemsomos">Quem somos</a></li>
+                <li><a id="visao" href="#Sobre">Sobre</a></li>
+                <li><a id="contatos" href="#contato">Contatos</a></li>
+                <li><a href="http://127.0.0.1:5500/leo/Trabalhe-Conosco.html" target="_blank">Trabalhe Conosco</a></li>
             </ul>
             <!--Menu hambuguer-->
             <div class="burger">
@@ -39,24 +39,80 @@
             </div>
         </nav>
     </header>
-    <main>
-        <section id="sobre">
-           
-        </section>
-   
-        <section id="visão">
+    <main>  
+<section id="quemsomos">
+    <div class="qs">
+        <div class="qs-img">
 
-        </section>
+            <img src="imgs/carro nulog.jpeg" alt="carro nulog">
+        </div>
+        <div class="qs-text">
+            <h1>Quem somos</h1>
+            <p>Atuamos no ramo de Transportes Rodoviário de Cargas, desde 1988. Projetado no coração do nosso avô, nostornamos Especialistas em transportes de ligas metálicas, atuando em grande parte do Brasil, O QUAL CONTAMOS COMNOSSA MATRIZ NO ENDEREÇO, CIDADE ITAQUAQUECETUBA.</p>
+        </div>
+    </div>
+</section>
 
-        <section id="missão">
+<div class="N" id="Sobre">
+    <div class="n">
+        <div class="n1">
+            <h1>Gestão em qualidade </h1>
+            <p>Alto padrão em Consistência</p>
+        </div>
+        <div class="n2">
+            <h1>Planejamento e Eficiênte</h1>
+            <p>Soluções em Logisitica </p>
+        </div>
+        <div class="n3">
+            <h1>Atuação no Segmento</h1>
+            <p>+ 34 anos</p>
+        </div>
+    </div>
+</div>
 
-        </section>
+<section>
+    <div class="sobre">
+        <div class="container_sobre">
+            <div class="sob_container_sobre">
+                <img src="imgs/vetor missão.png" alt="">
+            </div>
+            <div class="text-sobre">
+                <h1>Missão</h1>
+                <p>NOSSA MISSÃO É DESENVOLVER UM TRABALHO ONDE POSSAMOS TRANSPORTAR COM SEGURANÇA, AGILIDADE E QUALIDADE, PROPORCIONANDO SATISFAÇÃO AO CLIENTE ATRAVÉS DA TRANSPARÊNCIA DE NOSSOS PROCESSOS.</p>
+            </div>
+        </div>
+        <div class="container_sobre">
+            <div class="sob_container_sobre">
+                <img src="imgs/vetor visão.png" alt="">
+            </div>
+            <div class="text-sobre">
+                <h1>Visão</h1>
+                <p>Ser REFERÊNCIA PELA QUALIDADE, AGILIDADE E SEGURANÇA NO SEGMENTO DE TRANSPORTE RODOVIÁRIO. TEMOS COMO META O INVESTIMENTO EM TENCOLOGIAS DE TRANSPORTE ATUALIZADAS, ONDE GARANTIMOS A EFICIÊNCIA EM NOSSOS PROCESSOS.</p>
+            </div>
+        </div>
+            <div class="container_sobre">
+                <div class="sob_container_sobre">
+                    <img src="imgs/vetor valores.png" alt="">
+                </div>
+                <div class="text-sobre">
+                    <h1>Valores</h1>
+                    <h3>COMPROMETIMENTO COM A QUALIDADE</h3>
+                    <br>
+                    <p>COMPROMETIMENTO COM O CLIENTE, PLANEJANDO DE FORMA EFICIÊNTE, BUSCANDO ESTRATÉGIAS PARA OTIMIZAÇÃO DOS PRAZOS DE
+                    ENTREGAS.</p>
+                    <br>
+                    <h3>VALORIZAÇÃO HUMANA - HUMANIZAÇÃO</h3>
+                    <br>
+                    <p>CRIAR UM AMBIENTE DE TRABALHO ONDE OS COLABORADES TENHAM O PRAZER EM DESEMPENHAR SUAS ATIVIDADES E ESTIMULAR PARA O
+                    CRESCIMENTO PROFICIONAL, ZELANDO PELA SAÚDE  FISICA E EMOCIONAL.</p>
+                    <br>
+                    <p>PREZEMOS O RELACIONAMENTO EM EQUIPE, O QUAL ENCORAJAMOS A CRIATIVADE, INOVAÇÃO PARA UM MAIOR ENGAJAMENTO DO TIME.</p>
+                </div> 
+        </div>
+    </section>
 
-        <section id="valores">
 
-        </section>
-
-    <section id="endereço">
+    <section>
         <div class="mapa">
             <div class="text_filial">
                 <h1>Filial</h1>
@@ -66,6 +122,7 @@
             </div>
         </div>
     </section>
+    
 
     <div class="btn_wpp">
         <a href="#"><img src="imgs/wpp-btn.gif" alt="icon.btn.wpp"></a>
@@ -73,7 +130,7 @@
 
     </main>
 
-    <footer id="contatos">
+    <footer id="contato">
         <div class="container_footer">
             <div class="first_footer">
                 <div class="footer_brother">
@@ -84,11 +141,13 @@
                         otimização nos prazos de
                         entregas.</p>
                         <br>
-                        <a id="qld" href="#"><button>Saíba mais</button></a>
+                        <a href="#Sobre"><button>Saíba mais</button></a>
+                        <div class="cts">
+                            <p>☏ Tel: (11) 2148-0455</p>
+                            <p>✉️ E-mail: sabio@sabiocontabil.com.br</p>
+                        </div>
                     </div>
-                <div class="vetorlog">
-                    <img src="imgs/vetor log.png" alt="vetorlog">
-                </div>
+
             </div>
 
             <div class="second_footer">
@@ -113,7 +172,7 @@
             <div class="third_footer">
                 <div class="dev">
                     <div class="copy">
-                        <p>Todos os direitos reservados © NULOG LOGÍSTICA E SOLUÇÕES EM TRANSPORTES LTDA. 2022</p>
+                        <p>Todos os direitos reservados - © NuLog. 2022</p>
                     </div>
                     <div class="social">
                         <a href="https://www.linkedin.com/" target="_blank"><img src="imgs/linkedinwhite.png" alt="lkd"></a>
@@ -129,6 +188,6 @@
     <script src="javs/app.js"></script>
 
     <!-- Desenvolbido por https://github.com/Evanillson -->
-    <!--atualização 3.0-->
+    <!--atualização 4.0-->
 </body>
 </html>
