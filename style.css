@@ -8,7 +8,7 @@
     font-family: sans-serif;
 }
 body{
-    background-image: url(imgs/banner\ fundo\ log\ 2.2.png);
+    background-image: url(imgs/teste444.jpg.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -19,6 +19,7 @@ body{
 }
 
 header {
+    background-color: white;
     width: 100%; 
     transition: .5s linear;
     position: fixed;
@@ -27,6 +28,7 @@ header {
 }
 
 .navtop {
+    background-color: #f48038;
     width: 100%;
     min-width: 380px;
     border-bottom:  1px solid rgba(87, 87, 87, 0.153);
