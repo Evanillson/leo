@@ -298,12 +298,10 @@ main{
 
 .sob_container_sobre img{
     width: 100px;
-    margin-top: 30%;
-    
 }
 
 .text-sobre{
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 
@@ -311,7 +309,7 @@ main{
     text-decoration: underline 7px solid #f48038;
     color:#065474;
     font-size: 2rem;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 @media screen and (max-width:758px){
@@ -320,19 +318,19 @@ main{
     
     }
     .text-sobre h1{
-        width: 70%;
+        width: 50%;
         margin: auto;
     }
     .text-sobre p{
-        margin: 0 -70px;
-        width: 200%;
+        width: 110%;
+        
     }
     .sob_container_sobre img{
         padding-top: 150px;
     }
     .text-sobre h3{
         width: 120%;
-        margin-left: -70px;
+       
     }
 
 
@@ -426,9 +424,7 @@ main{
     justify-content: center;
     gap: 100px
 }
-.quem-somos-text{
-    width: 20%;
-}
+
 .quem-somos img{
     width: 600px;
 }
