@@ -515,15 +515,27 @@ main{
     color: white
 }
 
+@media screen and (max-width:768px) {
+    .tc-sobre{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    }
+    .tc-sobre img {
+        width: 350px;
+        margin-left: -3%;
+    }
+}
 
 
 #local{
-    width: 60%;
-    height: 700px;
+    width: 100%;
+    height: 600px;
     display: flex;
     margin: auto;
 
 }
+
 .local-text{
     margin-top: 100px;
     text-align: center;
@@ -539,6 +551,17 @@ main{
     margin-bottom: 20%;
     ;
 }
+
+@media screen and (max-width:768px){
+    .local-text p{
+        margin-left:5%;
+    }
+    .local-text h1{
+        margin-left: 13%;
+    }
+  
+}   
+
 /* tela de trabalhe conosco*/
 
 
