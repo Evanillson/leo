@@ -255,10 +255,13 @@ main{
 }
 @media screen and (max-width:768px){
     .banner-mobile{
-        display: block;
+        display: flex;
+        justify-content: center;
+        
     }
     .banner-mobile img{
-        width: 100%;
+        width: 80%;
+
     }
 }
 
