@@ -251,7 +251,7 @@ main{
 
 .banner-mobile{
     display: none;
-    margin-top: -9%;
+    margin-top: -2%;
 }
 @media screen and (max-width:768px){
     .banner-mobile{
@@ -260,7 +260,7 @@ main{
         
     }
     .banner-mobile img{
-        width: 80%;
+        width: 250px;
 
     }
 }
