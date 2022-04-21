@@ -786,7 +786,11 @@ color: white;
 .cts img{
     width: 17px;
 }
-@media screen and (max)
+@media screen and (max-width:768px){
+    .cts img{
+        width: 6%;
+    }
+}
 
 .vetorlog{
    max-width: 900px;
