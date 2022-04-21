@@ -629,8 +629,10 @@ strong{
 }
 .formulario{
     margin-bottom: 5%;
+    background-color: #065474;
 }
 form {
+    
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -663,11 +665,6 @@ label {
     font-weight: 600;
 }
 
-::placeholder {
-    color: #065474;
-    font-weight: 600;
-}
-
 .form-local {
     display: flex;
     justify-content: space-between;
@@ -688,14 +685,13 @@ label {
 .btn-form {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
 #btn-form {
-    background-color: #065474;
-    color: #f48038;
-    width: 30%;
-    padding: 10px 0;
+    background-color: #f48038;
+    color: #fff;
+    width: 40%;
+    padding: 15px 0;
     text-align: center;
     border: none;
     border-radius: 10px;
@@ -705,7 +701,7 @@ label {
 }
 
 #btn-form:hover {
-    background-color: #065574db;
+    background-color: #ffa974;
     color: white;
     transform: scale(1.1, 1.1);
 }
