@@ -251,7 +251,7 @@ main{
 
 .banner-mobile{
     display: none;
-    margin-top: 40%;
+    margin-top: 10%;
 }
 @media screen and (max-width:768px){
     .banner-mobile{
