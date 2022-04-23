@@ -158,6 +158,7 @@ nav .logo img {
     }
 }
 
+
 /*Ajustando a altura minima*/
 @media screen and (max-width:1080px) {
     body {
@@ -181,7 +182,7 @@ nav .logo img {
     }
     .nav-links a{
         font-size: 20px;
-        margin: -45px;
+        margin: -60px;
     }
     .nav-links li {
         opacity: 0;
