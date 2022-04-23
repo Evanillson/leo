@@ -19,7 +19,7 @@
 
 
 body{
-    background-image: url(imgs/banner\ log.jpg.png);
+    background-image: url(imgs/WhatsApp\ Image\ 2022-04-22\ at\ 19.57.50.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -212,8 +212,6 @@ nav .logo img {
     }
 }
 
-
-
 /*Transformando o menu em X*/
 .toggle .line1 {
     transform: rotate(-45deg) translate(-6px, 6px);
@@ -237,10 +235,9 @@ nav .logo img {
 
 
 
-
 main{
     width: 100%;
-    margin-top: 58%;
+    margin-top: 56%;
     
 }
 @media screen and (max-width:768px){
@@ -274,7 +271,7 @@ main{
 
 .qs{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 80%;
     margin: auto;
@@ -282,16 +279,8 @@ main{
 }
 .qs img{
     width: 700px;
-    margin: 30% 0;
 }
 
-
-.qs-text{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-}
 
 .qs h1{
     text-decoration: underline 7px solid #f48038;
@@ -322,18 +311,21 @@ strong{
         flex-direction: column-reverse;
 
     }
+    .qs-text{
+        margin-bottom: 10%;
+    }
     .qs img{
     width: 115%;
     margin-left: -7.5%;
     
     }
     .qs h1{
-     margin: auto;
+        display: flex;
+        justify-content: center;
     }
     .qs p{
     font-size: calc(2vh);
-    width: 125%;
-    margin-left: -12%;
+    width: 100%;
     line-height: normal;
     }
     
@@ -410,8 +402,8 @@ strong{
 .N{
     width: 100%;
     background-color: #065474;
-    margin: 100px 0;
-    padding: 20px 0;
+    margin: 2% 0 5% 0;
+    padding: 30px 0;
 
 }
 .n{
@@ -444,8 +436,8 @@ strong{
 }
 
 
-#filiais{
-    margin: 15% 0;
+#filiais {
+    margin: 5% 0 2% 0;
 }
 .mapa{
     display: flex;
@@ -575,45 +567,36 @@ strong{
 
 /* tela de trabalhe conosco*/
 
-.tc{
-    width: 100%;
 
-}
 .tc-sobre{
     display: flex;
+    justify-content: space-between;
     width: 80%;
     margin: auto;
-    align-items: center;  
+    align-items: center;
+   
+
+    
     
 }
 .tc-vetor img{
-    width: 70%;
-    margin-left: 30%;
+   width:800px;
+   
+   
    
 }
-.tc-text h1{
-    text-decoration: underline 7px solid #f48038;
-    color:#065474;
-    font-size: 2rem;
+
+.container-tc h2{
+    background-color: #065474;
+    border-radius: 30px 30px 0 0;
+    margin-top: -3%;
+    width: 100%;
+    padding: 25px 0;
+    color: white;
+    text-align: center;
     
 }
-.tc-text h1:first-child{
-    padding: 80px 0 50px 0;
-}
-.tc-text p {
-    line-height: 30px;
-    font-size: 1.1rem;
-    margin-bottom: 20%;  
-}
 
-.tc h2{
-    background-color: #065474;
-    border-bottom:  20px solid #f48038;
-    width: 100%;
-    text-align: center;
-    padding: 50px 0;
-    color: white
-}
 
 @media screen and (max-width:1350px) {
     .tc-sobre{
@@ -629,14 +612,13 @@ strong{
 }
 .formulario{
     margin-bottom: 5%;
-    background-color: #065474;
+
 }
 form {
-    
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 30%;
+    width: 100%;
     height: 700px;
     padding: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -774,7 +756,6 @@ footer {
 
 .second_footer{
     background-color: #296a84;
-    padding: px 0;
 }
 
 .footer_son {
