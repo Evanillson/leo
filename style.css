@@ -313,20 +313,22 @@ strong{
     }
     .qs-text{
         margin-bottom: 10%;
+        width: 100%;
     }
     .qs img{
-    width: 115%;
-    margin-left: -7.5%;
+        width: 380px;
+       
     
     }
     .qs h1{
         display: flex;
         justify-content: center;
+        width: 100%;
     }
     .qs p{
-    font-size: calc(2vh);
-    width: 100%;
-    line-height: normal;
+        font-size: calc(2vh);
+        width: 100%;
+        line-height: normal;
     }
     
 }
