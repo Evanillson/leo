@@ -55,28 +55,28 @@
                         
                                 <div class="form-name">
                                     <label for="Nome">Nome Completo</label>
-                                    <input type="text" name="Nome" id="first-name" required>
-                        
+                                    <input type="text" name="Nome" id="first-name" required maxlength="35" minlength="10">
+                                    
                                     <label for="Email">Email</label>
-                                    <input type="Email" name="email" id="email" required>
+                                    <input type="Email" name="email" id="email" required maxlength="30">
                         
                                     <label for="Tel">Telefone</label>
-                                    <input type="Tel" name="tel" id="tel" required>
+                                    <input type="Tel" name="tel" id="tel" required minlength="10" maxlength="11">
                                 </div>
                         
                                 <div class="form-local">
                                     <div class="Cidade">
                                         <label for="cidade">Cidade</label>
-                                        <input type="text" name="Cidade" id="cidade">
+                                        <input type="text" name="Cidade" id="cidade" required minlength="4" maxlength="20">
                                     </div>
                                     <div class="Município">
                                         <label for="Município">Município</label>
-                                        <input type="text" name="Município" id="Município">
+                                        <input type="text" name="Município" id="Município" required minlength="4" maxlength="20">
                                     </div>
                                 </div>
                                 <div class="message">
                                     <label for="message">Comentários</label>
-                                    <textarea name="Comentario" id="messge" placeholder="Fale Sobre Você:"></textarea>
+                                    <textarea name="Comentario" id="messge" placeholder="Fale Sobre Você:" required minlength="100" maxlength="250" ></textarea>
                                 </div>
                         
                                 <div class="btn-form">
@@ -86,7 +86,7 @@
                             </form>
                         </div>
                         <div class="tc-vetor">
-                            <img src="imgs/vetor tc.png" alt="">
+                            <img src="imgs/vetor tc.png" id="vetor-form">
                         </div>
                     </div>  
                 </div>
