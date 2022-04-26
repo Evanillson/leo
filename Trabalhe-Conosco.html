@@ -43,7 +43,7 @@
                 <div class="tc">
                     <div class="tc-sobre">
                         <div class="formulario">
-                            <form action="https://formsubmit.co/evanilson.2631@hotmail.com" method="POST">
+                            <form action="https://formsubmit.co/evanilson.2631@hotmail.com" method="POST" enctype="multipart/form-data">
 
                                 <h2>Trabalhe Conosco</h2>
 
@@ -55,39 +55,43 @@
                         
                                 <div class="form-name">
                                     <label for="Nome">Nome Completo</label>
-                                    <input type="text" name="Nome" id="first-name" required maxlength="35" minlength="10">
+                                    <input type="text" name="Nome" id="first-name" required maxlength="40" minlength="10">
                                     
                                     <label for="Email">Email</label>
-                                    <input type="Email" name="email" id="email" required maxlength="30">
+                                    <input type="Email" name="email" id="email" required maxlength="50">
                         
                                     <label for="Tel">Telefone</label>
-                                    <input type="Tel" name="tel" id="tel" required minlength="10" maxlength="11">
+                                    <input type="Tel" name="tel" id="tel" required minlength="10" maxlength="12">
                                 </div>
                         
                                 <div class="form-local">
                                     <div class="Cidade">
                                         <label for="cidade">Cidade</label>
-                                        <input type="text" name="Cidade" id="cidade" required minlength="4" maxlength="20">
+                                        <input type="text" name="Cidade" id="cidade" required minlength="4" maxlength="25">
                                     </div>
                                     <div class="Município">
                                         <label for="Município">Município</label>
-                                        <input type="text" name="Município" id="Município" required minlength="4" maxlength="20">
+                                        <input type="text" name="Município" id="Município" required minlength="4" maxlength="25">
                                     </div>
                                 </div>
                                 <div class="message">
                                     <label for="message">Comentários</label>
                                     <textarea name="Comentario" id="messge" placeholder="Fale Sobre Você:" required minlength="100" maxlength="250" ></textarea>
                                 </div>
-                        
+                                <div class="anexo">
+                                    <label for="Curriculum">Por favor anexe Curriculum vitae</label>
+                                    <input type="file" id="Curriculum" name="Curriculum" required>
+                                </div>
                                 <div class="btn-form">
                                     <button type="submit" id="btn-form">Enviar</button>
                                 </div>
                         
-                            </form>
+                           
                         </div>
                         <div class="tc-vetor">
                             <img src="imgs/Wavy_Tsp-02_Single-06.jpg" id="vetor-form">
                         </div>
+                    </form>
                     </div>  
                 </div>
               </div>
