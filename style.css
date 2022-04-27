@@ -265,9 +265,9 @@ main{
 
 .qs{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 75%;
     margin: auto;
    
 }
@@ -276,11 +276,11 @@ main{
 }
 
 
-.qs h1{
+.qs h1 {
     text-decoration: underline 7px solid #f48038;
-    color:#065474;
+    color: #065474;
     font-size: 2rem;
-    padding: 50px 0;
+    padding: 25px 0;
     text-align: center;
 
 }
@@ -298,6 +298,28 @@ main{
 }
 strong{
     color: rgba(97, 97, 97, 0.844);
+}
+
+.qs ul {
+    color: #065474;
+    font-size: 1.3rem;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.qs li {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    color: rgba(102, 102, 102, 0.807);
+    line-height: 1.5em;
+    
+}
+.frota{
+    display: flex;
+    justify-content: space-between;
 }
 @media screen and (max-width:1350px) {
     .qs {
@@ -324,7 +346,9 @@ strong{
         width: 100%;
         line-height: normal;
     }
-    
+    .frota{
+        display: block;
+    }
 }
 
 
@@ -464,24 +488,11 @@ strong{
 .filial h4{
     font-size: 1.6rem;
 }
-.filial #one{
-    color: #f48038;
+.filial #one, #two, #three {
+    color: #065474;
     text-decoration: 3px solid #f48038 underline;
     padding: 15px 0;
     font-family: 'Roboto', sans-serif;
-}
-.filial #two {
-    color: #065474;
-    text-decoration: 3px solid #065474 underline;
-    padding: 15px 0;font-family: 'Roboto', sans-serif;
-    
-}
-.filial #three {
-    color: #008657;
-    text-decoration: 3px solid #008657 underline;
-    padding: 15px 0;
-    font-family: 'Roboto', sans-serif;
-  
 }
 
 .mapa img{
@@ -616,7 +627,7 @@ strong{
 }
 
 .formulario{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 
 }
 
@@ -711,7 +722,6 @@ label {
     border-radius: 10px;
     font-weight: 600;
     transition: .2s linear;
-    margin-top: 5%;
     
 }
 
@@ -738,29 +748,39 @@ label {
 
 
 
-#local{
+
+#local {
     width: 80%;
     height: 600px;
     display: flex;
     margin: auto;
-    border: none;
-
+    margin-bottom: 120px;
+    border-top: 10px solid #065474;
+    border-left: 10px solid #f48038;
+    border-bottom: 10px solid #065474;
+    border-right: 10px solid #f48038;
 }
 
-.local-text{
-    margin-top: 100px;
+.local-text {
     text-align: center;
+    background-color: #065474;
 }
+
 .local-text h1 {
-    color:#065474;
+    color: #065474;
     font-size: 2rem;
-    
+    color: #f48038;
+    padding: 10px 0;
+    text-decoration: 5px solid #f48038 underline;
+
 }
+
 .local-text p {
     line-height: 30px;
     font-size: 1.1rem;
     margin-bottom: 5%;
-    ;
+    color: white;
+    padding: 10px 0;
 }
 
 @media screen and (max-width:1350px){
